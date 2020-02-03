@@ -53,6 +53,13 @@ img {
   box-shadow: 0 0 1rem #ffc600;
 }
 
+kbd {
+  display: block;
+  font-size: 3rem;
+  font-weight: 300;
+  display: inline;
+}
+
 .sound {
   font-size: 1.5rem;
   text-transform: none;
