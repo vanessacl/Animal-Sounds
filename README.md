@@ -9,5 +9,4 @@ Technologies:
   
   Visit this link to check this website: 
   
-  ![image](img/cover.png)
-  
+  ![image](img/cover.png){:height="50%" width="50%"}  
