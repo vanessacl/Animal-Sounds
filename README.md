@@ -9,4 +9,4 @@ Technologies:
   
   Visit this link to check this website: 
   
-  ![image|512x397](img/cover.png)
+  ![image|250x200](img/cover.png)
