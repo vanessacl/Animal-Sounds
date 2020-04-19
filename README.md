@@ -9,4 +9,6 @@ Technologies:
   
   Visit this link to check this website: 
   
-  ![image|250x200](img/cover.png)
+  <img src="img/cover.png" width= "250">
+  
+  ![image|250x200](img/cover.png
