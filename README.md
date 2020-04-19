@@ -9,6 +9,6 @@ Technologies:
   
   Visit this link to check this website: 
   
-  <img src="img/cover.png" width= "250">
+  <img src="img/cover.png" width= "450">
   
-  ![image|250x200](img/cover.png
+  
