@@ -4,57 +4,65 @@
     <meta charset="UTF-8" />
     <title>Animal Sounds</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css?family=Slackey&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <h1 class="title">Animal Sounds</h1>
-    <div class="keys">
-      <div data-key="67" class="key">
-        <img src="./img/cow.svg" />
-        <span class="sound"><kbd>C</kbd>ow</span>
-      </div>
-      <div data-key="68" class="key">
-        <img src="./img/duck.svg" />
-        <span class="sound"><kbd>D</kbd>uck</span>
-      </div>
-      <div data-key="72" class="key">
-        <img src="./img/horse.svg" />
-        <span class="sound"><kbd>H</kbd>orse</span>
-      </div>
-      <div data-key="76" class="key">
-        <img src="./img/lion.svg" />
-        <span class="sound"><kbd>L</kbd>ion</span>
-      </div>
-      <div data-key="77" class="key">
-        <img src="./img/monkey.svg" />
-        <span class="sound"><kbd>M</kbd>onkey</span>
-      </div>
-      <div data-key="80" class="key">
-        <img src="./img/pig.svg" />
-        <span class="sound"><kbd>P</kbd>ig</span>
-      </div>
-      <div data-key="82" class="key">
-        <img src="./img/rooster.svg" />
-        <span class="sound"><kbd>R</kbd>ooster</span>
-      </div>
-      <div data-key="83" class="key">
-        <img src="./img/sheep.svg" />
-        <span class="sound"><kbd>S</kbd>heep</span>
+    <div class="container">
+      <h1 class="title row row-col-12">Animal Sounds</h1>
+      <div class="row row-cols-4">
+        <div class="keys col">
+          <div data-key="67" class="key col">
+            <img src="./img/cow.svg" />
+            <span class="sound"><kbd>C</kbd>ow</span>
+          </div>
+          <div data-key="68" class="key col">
+            <img src="./img/duck.svg" />
+            <span class="sound"><kbd>D</kbd>uck</span>
+          </div>
+          <div data-key="72" class="key col">
+            <img src="./img/horse.svg" />
+            <span class="sound"><kbd>H</kbd>orse</span>
+          </div>
+          <div data-key="76" class="key col">
+            <img src="./img/lion.svg" />
+            <span class="sound"><kbd>L</kbd>ion</span>
+          </div>
+          <div data-key="77" class="key col">
+            <img src="./img/monkey.svg" />
+            <span class="sound"><kbd>M</kbd>onkey</span>
+          </div>
+          <div data-key="80" class="key col">
+            <img src="./img/pig.svg" />
+            <span class="sound"><kbd>P</kbd>ig</span>
+          </div>
+          <div data-key="82" class="key col">
+            <img src="./img/rooster.svg" />
+            <span class="sound"><kbd>R</kbd>ooster</span>
+          </div>
+          <div data-key="83" class="key col">
+            <img src="./img/sheep.svg" />
+            <span class="sound"><kbd>S</kbd>heep</span>
+          </div>
+        </div>
+
+        <audio data-key="67" src="sounds/cow.wav"></audio>
+        <audio data-key="68" src="sounds/duck.wav"></audio>
+        <audio data-key="72" src="sounds/horse.wav"></audio>
+        <audio data-key="76" src="sounds/lion.wav"></audio>
+        <audio data-key="77" src="sounds/monkey.wav"></audio>
+        <audio data-key="80" src="sounds/pig.wav"></audio>
+        <audio data-key="82" src="sounds/rooster.wav"></audio>
+        <audio data-key="83" src="sounds/sheep.wav"></audio>
       </div>
     </div>
 
-    <audio data-key="67" src="sounds/cow.wav"></audio>
-    <audio data-key="68" src="sounds/duck.wav"></audio>
-    <audio data-key="72" src="sounds/horse.wav"></audio>
-    <audio data-key="76" src="sounds/lion.wav"></audio>
-    <audio data-key="77" src="sounds/monkey.wav"></audio>
-    <audio data-key="80" src="sounds/pig.wav"></audio>
-    <audio data-key="82" src="sounds/rooster.wav"></audio>
-    <audio data-key="83" src="sounds/sheep.wav"></audio>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
