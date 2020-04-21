@@ -10,6 +10,6 @@ Technologies:
   Visit this link to check this website: https://animal-sounds.netlify.app/
   
   
-  <img src="img/cover.png" width= "450">
+  <img src="img/website-cover.png" width= "450">
   
   
