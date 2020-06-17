@@ -1,6 +1,7 @@
 Animal Sounds
 
-This project will play the animal sounds when the first key of the animal name is press on you keyboard.
+Instructions:
+On your keyboard, press the first key of the animal name to play the animal sound.
 
 Technologies:
   - HTML
