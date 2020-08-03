@@ -1,9 +1,9 @@
-Animal Sounds
+#Animal Sounds
 
-Instructions:
+###Instructions:
 On your keyboard, press the first key of the animal name to play the animal sound.
 
-Technologies:
+###Technologies:
   - HTML
   - CSS
   - JavaScript
